@@ -187,6 +187,9 @@ img {
   align-items: center;
   justify-content: space-between;
 }
+.main-navigation .nav-container img {
+  max-width: 5%;
+}
 @media (max-width: 500px) {
   .main-navigation .nav-container {
     flex-wrap: wrap;
@@ -220,11 +223,21 @@ img {
   border-top: 2px dashed #C0C0C0;
   background: #FFEBCD;
 }
+.footer img {
+  max-width: 4%;
+  margin: 0 48vw;
+}
 .footer p {
   text-align: center;
   color: #212529;
   font-size: 1.6rem;
   padding: 20px;
+}
+.home .scro {
+  font-size: 20rem;
+  color: red;
+  position: fixed;
+  display: none;
 }
 .home .intro {
   padding: 90px 0 10px;
